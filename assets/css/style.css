@@ -20,7 +20,7 @@
     grid-area: navbar;
     background-color: #017A1C;
     display: flex;
-    justify-content:end;
+    justify-content: space-between;
           
 }
 .navbar ul{
