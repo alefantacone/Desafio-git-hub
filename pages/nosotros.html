@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nosotros</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body class="container">
@@ -28,8 +29,13 @@
     <main class="main">
        
         <div class="nosotros">
-            <p class="parrafoNosotros">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt veniam cum eum laboriosam beatae doloremque praesentium quis quaerat, ad nisi, dolorem deleniti aliquid reiciendis suscipit vero alias quibusdam rem eaque commodi cupiditate consequuntur odio. Dicta deleniti reiciendis vel inventore expedita dolore deserunt ipsum, doloremque at alias, rerum maiores porro ex dolorum voluptatibus aperiam quaerat veniam atque quis. Delectus nisi exercitationem natus fuga adipisci aut corrupti totam eveniet quisquam voluptas! Blanditiis est dolorem sed quasi dolorum vel perspiciatis asperiores iusto rerum, autem nihil tempore eos cum velit officia magni nemo quam reiciendis obcaecati at! Nisi sint dignissimos suscipit cumque ea nemo?</p>
-            <img class="imagenNosotros" src="../assets/img/Nosotros 2.jpeg" alt="">
+            <p data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine" data-aos-duration="1000" data-aos-delay= "1000" class="parrafoNosotros">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt veniam cum eum laboriosam beatae doloremque praesentium quis quaerat, ad nisi, dolorem deleniti aliquid reiciendis suscipit vero alias quibusdam rem eaque commodi cupiditate consequuntur odio. Dicta deleniti reiciendis vel inventore expedita dolore deserunt ipsum, doloremque at alias, rerum maiores porro ex dolorum voluptatibus aperiam quaerat veniam atque quis. Delectus nisi exercitationem natus fuga adipisci aut corrupti totam eveniet quisquam voluptas! Blanditiis est dolorem sed quasi dolorum vel perspiciatis asperiores iusto rerum, autem nihil tempore eos cum velit officia magni nemo quam reiciendis obcaecati at! Nisi sint dignissimos suscipit cumque ea nemo?</p>
+            <img data-aos="fade-left"
+            data-aos-anchor="#example-anchor"
+            data-aos-offset="500"
+            data-aos-duration="1000" data-aos-delay= "2000" class="imagenNosotros" src="../assets/img/Nosotros 2.jpeg" alt="">
         </div>
     </main>
 
@@ -40,5 +46,9 @@
     <footer class="footer">
         <h5>©Agrojas, todos los derechos reservados</h5>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>

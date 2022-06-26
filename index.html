@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body class="container">
@@ -25,7 +26,9 @@
    </header>
 
   <main class="main">
-   <img class="img" src="./assets/img/Nosotros.jpeg" alt=""> 
+   <img data-aos="fade-down"
+   data-aos-easing="linear"
+   data-aos-duration="1500" data-aos-delay= "400" class="img" src="./assets/img/Nosotros.jpg" alt=""> 
   </main>
 
   <aside>
@@ -35,6 +38,9 @@
   <footer class="footer">
     <h5>©Agrojas, todos los derechos reservados</h5>
   </footer>
-
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
